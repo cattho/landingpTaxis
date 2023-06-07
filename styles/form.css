@@ -1,0 +1,58 @@
+.form-container{
+    margin-top: 20px;
+    gap: 20px;
+    display: block;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+  }
+  
+  #form {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  .input-form {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="number"],
+  textarea,
+  select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: none;
+  }
+  
+  /* Estilos específicos para el campo de país */
+  #userCountry {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background: url("dropdown-arrow.png") no-repeat right center;
+    background-size: 12px;
+    padding-right: 25px;
+  }
+  
+  /* Estilos específicos para el botón de envío */
+  #submitButton {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  #submitButton:hover {
+    background-color: #45a049;
+  }

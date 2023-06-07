@@ -1,0 +1,71 @@
+.main-titulo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin: 2rem 0;
+  }
+  
+  .main-titulo h2 {
+    text-transform: uppercase;
+    font-size: 27px;
+  }
+  
+  .main-titulo p{
+    font-size: 17px;
+  }
+  
+  .normas-hackathon-container {
+    position: relative;
+    max-width: 80%;
+    min-height: 80vh;
+    margin: 0 auto;
+    padding: 2rem;
+    gap: 2rem;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+  
+  .norma-container {
+    width: calc(50% - 1rem);
+    min-height: 200px;
+    line-height: 1.5rem;
+    text-align: justify;
+    font-size: 17px;
+  }
+  
+  .norma-container h3 {
+    font-size: 24px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+  }
+  
+  .norma-container:nth-child(3) ul li {
+    list-style: none;
+    line-height: 1.8rem;
+  }
+  
+  .norma-container:nth-child(3) ul li::before {
+    content: "✔";
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;
+    text-align: center;
+  }
+  
+  .norma-container::before {
+    content: "";
+    position: absolute;
+    height: 100%;
+    left: 50%;
+    z-index: 1;
+    transform: translateX(-50%);
+    height: 100%;
+    width: 1px;
+    background: linear-gradient(200deg, #381dc2, #2cefff);
+  }

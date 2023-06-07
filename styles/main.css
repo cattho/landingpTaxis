@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&display=swap");
+@import url("header.css");
+@import url("mainInfo.css");
+@import url("form.css");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  background-color: #1c1c1c;
+  font-family: "Lato", sans-serif;
+  user-select: none;
+  color: #fff;
+}
+
+/* responsive */
+@media (max-width: 1024px) {
+  .header-container h1 {
+    font-size: 4rem;
+  }
+
+  .header-container p {
+    font-size: 0.9rem;
+  }
+
+  .header-btn-container button {
+    padding: 0.5rem 1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .header-container h1 {
+    font-size: 3rem;
+  }
+
+  .header-container p {
+    font-size: 0.8rem;
+  }
+
+  .header-btn-container button {
+    padding: 0.4rem 0.8rem;
+  }
+}
